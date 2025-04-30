@@ -1,0 +1,20 @@
+
+.block_mycredits .creditaccount {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 90%;
+}
+
+.block_mycredits .amount {
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: #48DF7D;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.block_mycredits .amount.iszero {
+    background-color: #D21C37;
+    color: white;
+}

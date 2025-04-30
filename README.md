@@ -1,2 +1,2 @@
 # moodle-block_mycredits
-Manage enrolment credits ofr users
+an accessory bloc to give users a view over their training credit account.

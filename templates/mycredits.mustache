@@ -1,0 +1,22 @@
+
+
+<!-- block_mycredits/mycredits -->
+<div class="description">
+    {{#str}}acquirecredits_desc, block_mycredits{{/str}}
+</div>
+<div class="creditaccount">
+    {{#str}}creditsavailable, block_mycredits{{/str}}
+    <div class="amount {{#iszero}}iszero{{/iszero}}">{{credits}}</div>
+    {{#str}}credits, block_mycredits{{/str}}
+</div>
+{{#acquirecreditsurl}}
+<div class="acquire-link">
+    {{#haspicture}}
+    <a href="{{{acquirecreditsurl}}}" title="{{#str}}acquirecredits, block_mycredits{{/str}}"><img src="{{{pictureurl}}}"></a>
+    {{/haspicture}}
+    {{^haspicture}}
+    <a href="{{{acquirecreditsurl}}}">{{#str}}acquirecredits, block_mycredits{{/str}}</a>
+    {{/haspicture}}
+</div>
+{{/acquirecreditsurl}}
+<!-- /block_mycredits/mycredits -->
